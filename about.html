@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>About Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/site icon.png" type="icon/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+
+    <style>
+        .grid-container {
+          display: grid;
+          align-content: space-around;
+          grid-template-columns: auto auto auto;
+          grid-gap: 10px;
+          background-color:#EAEAEA;
+          padding: 10px;
+        }
+        
+        .grid-container > div {
+          background-color:#EAEAEA;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 20px 0;
+          font-size: 30px;
+        }
+        
+        @media only screen and (max-width: 500px){
+        .item1 { grid-area: 1 / 3 / 2 / 4; }
+        .item2 { grid-area: 2 / 3 / 3 / 4; }
+        .item3 { grid-area: 1 / 1 / 2 / 2; }
+        .item4 { grid-area: 1 / 2 / 2 / 3; }
+        .item5 { grid-area: 2 / 1 / 3 / 2; }
+        .item6 { grid-area: 2 / 2 / 3 / 3; }
+        }
+
+        h1,h2,h3,h4 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        .para1 {
+            text-align: justify;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 100;
+            font-size: 16px;
+            color: white;
+        }
+
+        .para2 {
+            text-align: justify;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            font-size: 16px;
+            color: black;
+        }
+        body{
+            background-image: url(images/bg.jpg);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container-fluid text-white" style="background-color:#063247; height: 9vh; ">
+    <h1 style="font-weight: 500; text-align: center; margin-top: 2vh;">ABOUT US</h1>
+</div>
+      
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+    </ol>
+
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/carousel/1.png" alt="1" style="width:100%">
+            <div class="carousel-caption">
+                <h3>Eco-Styled Interior</h3>
+            </div>
+         </div>
+
+        <div class="item">
+            <img src="images/carousel/2.png" alt="2" style="width:100%;">
+            <div class="carousel-caption">
+                <h3>Modern Living Room</h3>
+            </div>
+        </div>
+    
+        <div class="item">
+            <img src="images/carousel/3.png" alt="3" style="width:100%;">
+            <div class="carousel-caption">
+                <h3>Contemporary Office Design</h3>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/carousel/4.png" alt="4" style="width:100%;">
+            <div class="carousel-caption">
+                <h3>Classic Kitchen</h3>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/carousel/5.png" alt="5" style="width:100%;">
+            <div class="carousel-caption">
+                <h3>Rustic Interior</h3>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="images/carousel/6.png" alt="6" style="width:100%;">
+            <div class="carousel-caption">
+                <h3>Minimalist Office Interior</h3>
+            </div>
+        </div>
+    </div>
+
+<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+
+<div class="grid-container">
+    <div class="item1"><i class='fas fa-briefcase' style='font-size:36px'><h4>Professional Designers</h4></i></div>
+    <div class="item2"><i class='fas fa-trophy' style='font-size:36px'><h4>50+ Awards</h4></i></div>
+    <div class="item3"><i class='fas fa-star' style='font-size:36px'><h4>Personalized Designs</h4></i></div>  
+    <div class="item4"><i class='fas fa-bell' style='font-size:36px'><h4>On-Time Service</h4></i></div>
+    <div class="item5"><i class='fas fa-tags' style='font-size:36px'><h4>Best Prices</h4></i></div>
+    <div class="item6"><i class='fas fa-thumbs-up' style='font-size:36px'><h4>Happy Customers</h4></i></div>
+</div>
+
+
+<div class="container-fluid p-5 my-5 text-white" style="background-color: #063247;">
+    <div class="how-section1">
+        <div class="row">
+            <div class="col-md-6 how-img">
+                <img src="images/content/1.png" class="rounded-circle img-fluid" alt="7">
+            </div>
+            <div class="col-md-6">
+                <h2>WHO WE ARE</h2><br>
+                <p class="para1">Elite Decor's origin dates back to 1990 when the company’s specialty was laying stone and ceramic in the residential sector. 
+                    At first, it was a "one man show" featuring Mister Pépin, the father. 
+                    In 1994, the enterprise became a family affair with the arrival of his son Jonathan, eager to learn the profession. Jonathan’s passion resided in custom home renovation, and he also had strong commercial experience. 
+                    Together they then steered the company towards interior designing and planning. As of today we are a team of planners, architects, landscape architects and interior designers 
+                    headquartered in New York and San Francisco with a network of domestic and international offices, with over 26 years of experience. 
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+                
+
+<div class="container-fluid p-5 my-5 text-black" style="background-color: #EAEAEA;">
+    <div class="how-section1">                
+        <div class="row">
+            <div class="col-md-6">
+                <h2>WHAT WE DO</h2><br>
+                <p class="para2">Our Company offers a variety of services from interior design to architectural visualization.
+                    We have close relationships with big name companies located around the world. 
+                    What's great is that we accept input from our clients and learn from it.
+                    We create designs in a collaborative environment enabling us to deliver the client’s ultimate vision.
+                    We are able to offer integrated services for your residential and commercial projects and we manage the plan development and interior design.
+                    We have always had a love for design and decorating and carry unique pieces to design your space, 
+                    but also have specialists on hand to help you design and create the plan.
+                    You can check out some of our high end projects on the website in a few areas of specialty. 
+                </p>
+            </div>
+            <div class="col-md-6 how-img">
+                <img src="images/content/2.png" class="rounded-circle img-fluid" alt="8">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid p-5 my-5 text-white" style="background-color: #063247;">
+    <div class="how-section1">
+        <div class="row">
+            <div class="col-md-6 how-img">
+                <img src="images/content/3.png" class="rounded-circle img-fluid" alt="9">
+            </div>
+            <div class="col-md-6">
+                <h2>WHAT MAKES US SPECIAL</h2><br>
+                <p class="para1">Our designs are current, yet still possess a timeless style generating broad market appeal.
+                    It is our passion to constantly pursue fresh inspiration.
+                    Our designers continually search for the most compelling design styles and highest quality of materials available. 
+                    Hours of extensive market research allow us to create each design specific to your target market. 
+                    We take pride in our work ethic, our eye for innovative designs, and our commitment to our clients.
+                    Our group of designers handle each job as a place and not a project. 
+                    They work together in different ways that compliment and create a unique design experience,
+                    where we add a style that is colorful and bold to the spaces we design.
+                    The goal of our designs is to be fresh, productive and connect those within them successfully.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+                
+
+<div class="container-fluid p-5 my-5 text-black" style="background-color: #EAEAEA;">
+    <div class="how-section1">                
+        <div class="row">
+            <div class="col-md-6">
+                <h2>CAREERS</h2><br>
+                <p class="para2">If you’re in search of a meaningful career, we may have an opportunity for you at Elite Decor. 
+                    We are always seeking talented people for all parts of our team.
+                    We offer our associates outstanding working conditions, opportunities for advancement and, of course, competitive wages and benefits. 
+                    If you are interested in more information about a career with Elite Decor, please email your resume to elitedecor@gmail.com. 
+                    Only applications submitted via email will be forwarded to our Personnel department. 
+                    Applicants will be contacted if further information is needed or if an interview needs to be set.
+                    Elite Decor is an equal opportunity employer.
+                </p>
+            </div>
+            <div class="col-md-6 how-img">
+                <img src="images/content/4.png" class="rounded-circle img-fluid" alt="10">
+            </div>
+        </div>
+    </div>
+</div>
+               
+</body>
+</html>
